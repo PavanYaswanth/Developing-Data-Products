@@ -1,0 +1,28 @@
+---
+title: "projectLeaf"
+author: "Pavan Yaswanth"
+date: "02/05/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Background
+Create a web page using R Markdown that features a map created with Leaflet.
+
+Host your webpage on either GitHub Pages, RPubs, or NeoCities.
+
+Your webpage must contain the date that you created the document, and it must contain a map created with Leaflet. We would love to see you show off your creativity!
+
+## My Leaflet Map Assignment
+```{r}
+library(leaflet)
+```
+```{r}
+my_map<-leaflet() %>% addTiles()
+my_map<-my_map %>% addMarkers(lat = 16.5131,lng =  80.5165,popup = "Amaravathi- AP Capital")
+my_map
+```
+
