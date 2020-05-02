@@ -9,7 +9,7 @@ output: ioslides_presentation
 
 - The shiny app calculates and presents the production cost of Ammonia/Urea as the variation of natural gas price. 
 - The app is published at https://pavankante102.shinyapps.io/Shiny_Coursera_Proj/
-- Source code for ui.R and server.R files are available on the GitHub repo: https://github.com/PavanYaswanth/Developing-Data-Products
+- Source code for ui.R and server.R files are available on the GitHub repo: https://github.com/PavanYaswanth/Developing-Data-Products/blob/master/week4/
 
 ## Web Application functionality
 
